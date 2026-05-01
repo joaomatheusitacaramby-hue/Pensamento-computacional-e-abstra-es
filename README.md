@@ -1,4 +1,4 @@
-# Pensamento-computacional e abstrações
+# Entrega aula - Pensamento-computacional e abstrações
    
 O Tema: Organização de uma Viagem Internacional
 1. Níveis de Abstração

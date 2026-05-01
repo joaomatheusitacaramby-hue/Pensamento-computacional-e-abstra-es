@@ -13,7 +13,7 @@ Nesta etapa, o foco deixa de ser a tarefa isolada e passa a ser a logística int
 Nível Cognitivo (Impacto e Experiência):
 A abstração mais alta foca no propósito da viagem. Trata-se da exposição ao desconhecido e da adaptação a novas normas sociais e culturais. Neste nível, a viagem é vista como um processo de expansão intelectual, onde o indivíduo processa informações externas para reconfigurar sua própria visão de mundo.
 
-2. Lógica Estrutural (Pseudocódigo em Python)
+2. Lógica Estrutural (Pseudocódigo em Python
 O código abaixo representa a lógica de decisão necessária para viabilizar o projeto:
 
 def planejar_viagem_internacional(destino, orçamento_disponivel):
@@ -42,4 +42,29 @@ def planejar_viagem_internacional(destino, orçamento_disponivel):
     return "Viagem concluída: Integração cultural realizada."
 
 
+
+
+
     
+3. O fluxo a seguir detalha o caminho crítico do planejamento à conclusão:
+
+        A[Início: Ideia da Viagem] --> B{Tem Orçamento?}
+    
+        B -- Não --> C[Fase de Economia]
+        C --> B
+    
+        B -- Sim --> D[Verificar Documentação]
+    
+        D --> E{Passaporte/Visto OK?}
+        E -- Não --> F[Processo de Emissão]
+        F --> D
+    
+        E -- Sim --> G[Reservar Passagem e Hotel]
+    
+       G --> H[Execução da Viagem]
+    
+       H --> I{Surgiu Imprevisto?}
+       I -- Sim --> J[Ajustar Roteiro]
+       J --> H
+    
+       I -- Não --> K[Fim: Retorno e Experiência]

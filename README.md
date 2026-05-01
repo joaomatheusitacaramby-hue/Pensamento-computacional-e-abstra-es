@@ -1,1 +1,1 @@
-# Pensamento-computacional-e-abstra-es
+# Pensamento-computacional e abstrações
